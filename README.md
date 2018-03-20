@@ -127,19 +127,19 @@ There are some speech files in "./notes".
 
 The clear speech is "./notes/THCH_test_D8_770-.wav", which figures showed below:
 
-![alt text](https://github.com/yongxuUSTC/deep_learning_based_speech_enhancement_keras_python/blob/master/mixture2clean_dnn/appendix/enhanced_log_sp.png)
+![Clear Speech](https://github.com/boozyguo/ClearWave/blob/master/notes/clear-d8-770.jpg)
 
 
 The noisy file are  "./notes/THCH_test_D8_770.noise1.wav" and "./notes/THCH_test_D8_770.noise2.wav", which figures showed below:
 
-![alt text](https://github.com/yongxuUSTC/deep_learning_based_speech_enhancement_keras_python/blob/master/mixture2clean_dnn/appendix/enhanced_log_sp.png)
-![alt text](https://github.com/yongxuUSTC/deep_learning_based_speech_enhancement_keras_python/blob/master/mixture2clean_dnn/appendix/enhanced_log_sp.png)
+![Noisy1](https://github.com/boozyguo/ClearWave/blob/master/notes/noise1-d8-770.jpg)
+![Noisy2](https://github.com/boozyguo/ClearWave/blob/master/notes/noise2-d8-770.jpg)
 
 
 The denoised file are  "./notes/THCH_test_D8_770.noise1.ns_enh.wav" and "./notes/THCH_test_D8_770.noise2.ns_enh.wav", which figures showed below:
 
-![alt text](https://github.com/yongxuUSTC/deep_learning_based_speech_enhancement_keras_python/blob/master/mixture2clean_dnn/appendix/enhanced_log_sp.png)
-![alt text](https://github.com/yongxuUSTC/deep_learning_based_speech_enhancement_keras_python/blob/master/mixture2clean_dnn/appendix/enhanced_log_sp.png)
+![Denoised1](https://github.com/boozyguo/ClearWave/blob/master/notes/denoised-noise1-d8-770.jpg)
+![Denoised2](https://github.com/boozyguo/ClearWave/blob/master/notes/denoised-noise2-d8-770.jpg)
 
 
 
@@ -152,7 +152,7 @@ If the project could help you, please star it and give us some donations. Donati
 
 
 WeChat Payment
-![WeChat Payment](https://github.com/yongxuUSTC/deep_learning_based_speech_enhancement_keras_python/blob/master/mixture2clean_dnn/appendix/enhanced_log_sp.png)
+![WeChat Payment](https://github.com/boozyguo/ClearWave/blob/master/notes/wechat.jpg)
 
 
 
