@@ -12,6 +12,22 @@ Before try the project, please download the base dnn model from https://pan.baid
 
 ------------------
 
+# Speech Samples
+You could download and listen the clear, noisy and denoised Speech:
+
+The Clear Speech ------- https://github.com/boozyguo/ClearWave/blob/master/notes/THCH_test_D8_770-.wav
+
+
+The noisy Speech -------https://github.com/boozyguo/ClearWave/blob/master/notes/THCH_test_D8_770.noise1.wav
+The Denoised Speech ----https://github.com/boozyguo/ClearWave/blob/master/notes/THCH_test_D8_770.noise1.ns_enh.wav
+
+
+The noisy Speech -------https://github.com/boozyguo/ClearWave/blob/master/notes/THCH_test_D8_770.noise2.wav
+The Denoised Speech ----https://github.com/boozyguo/ClearWave/blob/master/notes/THCH_test_D8_770.noise2.ns_enh.wav
+
+
+------------------
+
 ## Inference Usage: Denoise on noisy data. 
 If you have noisy speech, you can edit and run "./demo.sh" to denoise the noisy file. 
 
