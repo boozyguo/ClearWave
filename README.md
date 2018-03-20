@@ -133,8 +133,22 @@ Avg.             2.08 +- 0.24
 ------------------
 
 ## Samples:
-In the inference step, you may add --visualize to the arguments to plot the mixture, clean and enhanced speech log magnitude spectrogram. 
+There are some speech files in "./notes". 
 
+The clear speech is "./notes/THCH_test_D8_770-.wav", which figures showed below:
+
+![alt text](https://github.com/yongxuUSTC/deep_learning_based_speech_enhancement_keras_python/blob/master/mixture2clean_dnn/appendix/enhanced_log_sp.png)
+
+
+The noisy file are  "./notes/THCH_test_D8_770.noise1.wav" and "./notes/THCH_test_D8_770.noise2.wav", which figures showed below:
+
+![alt text](https://github.com/yongxuUSTC/deep_learning_based_speech_enhancement_keras_python/blob/master/mixture2clean_dnn/appendix/enhanced_log_sp.png)
+![alt text](https://github.com/yongxuUSTC/deep_learning_based_speech_enhancement_keras_python/blob/master/mixture2clean_dnn/appendix/enhanced_log_sp.png)
+
+
+The denoised file are  "./notes/THCH_test_D8_770.noise1.ns_enh.wav" and "./notes/THCH_test_D8_770.noise2.ns_enh.wav", which figures showed below:
+
+![alt text](https://github.com/yongxuUSTC/deep_learning_based_speech_enhancement_keras_python/blob/master/mixture2clean_dnn/appendix/enhanced_log_sp.png)
 ![alt text](https://github.com/yongxuUSTC/deep_learning_based_speech_enhancement_keras_python/blob/master/mixture2clean_dnn/appendix/enhanced_log_sp.png)
 
 
