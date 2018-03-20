@@ -16,6 +16,11 @@ Before try the project, please download the base dnn model from https://pan.baid
 You could download and listen the clear, noisy and denoised Speech:
 
 The Clear Speech ------- https://github.com/boozyguo/ClearWave/blob/master/notes/THCH_test_D8_770-.wav
+<audio id="Clear Speech" controls="" preload="none" poster="">
+      <source id="wav" src="https://github.com/boozyguo/ClearWave/blob/master/notes/THCH_test_D8_770-.wav" type="audio/wav">
+      <p>Your user agent does not support the HTML5 Video element.</p>
+</audio>
+
 
 
 The noisy Speech -------https://github.com/boozyguo/ClearWave/blob/master/notes/THCH_test_D8_770.noise1.wav
