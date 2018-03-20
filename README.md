@@ -66,6 +66,9 @@ If you want to train yourself model, just prepare your data, then run "./runme.s
 ClearWave model based on simple DNN in keras:
 
 ```python
+    n_concat = 7
+    n_freq = 257
+    n_hid = 2048
     model = Sequential()
     model.add(Flatten(input_shape=(n_concat, n_freq)))
     model.add(Dropout(0.1))
