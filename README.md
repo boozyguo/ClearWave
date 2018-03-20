@@ -105,28 +105,19 @@ Speech: THCHS30 499 testing sentences (selected 20% from 2495 testing sentences)
 Noise: same to training
 
 
-The final PESQ looks like:
+The denoised PESQ is(SNR=5db):
 
 <pre>
-Noise(0dB)            PESQ
+Calculate overall stats. 
+Noise            PESQ            
 ---------------------------------
-pink             2.01 +- 0.23
-buccaneer1       1.88 +- 0.25
-factory2         2.21 +- 0.21
-hfchannel        1.63 +- 0.24
-factory1         1.93 +- 0.23
-babble           1.81 +- 0.28
-m109             2.13 +- 0.25
-leopard          2.49 +- 0.23
-volvo            2.83 +- 0.23
-buccaneer2       2.03 +- 0.25
-white            2.00 +- 0.21
-f16              1.86 +- 0.24
-destroyerops     1.99 +- 0.23
-destroyerengine  1.86 +- 0.23
-machinegun       2.55 +- 0.27
+Cafeteria_Noise_16s_26s 2.81 +- 0.09    
+Fullsize_Car1_16s_26s 3.13 +- 0.09    
+Pub_Noise_16s_26s 2.51 +- 0.09    
+Outside_Traffic_2s_12s 2.89 +- 0.11    
+RockMusic01m48k_16s_26s 3.04 +- 0.09    
 ---------------------------------
-Avg.             2.08 +- 0.24
+Avg.             2.87 +- 0.10
 </pre>
 
 ------------------
@@ -164,3 +155,10 @@ WeChat Payment
 ![WeChat Payment](https://github.com/yongxuUSTC/deep_learning_based_speech_enhancement_keras_python/blob/master/mixture2clean_dnn/appendix/enhanced_log_sp.png)
 
 
+
+
+------------------
+
+## Ref:
+
+ https://github.com/yongxuUSTC/sednn
