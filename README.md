@@ -95,7 +95,7 @@ ClearWave model based on simple DNN in keras:
 
 Training:
 
-Speech: THCHS30 2178 training sentences. (selected 20% from 10893 testing sentences)
+Speech: THCHS30(http://cslt.org) 2178 training sentences. (selected 20% from 10893 testing sentences)
 
 Noise: 5 kinds of noises
 
