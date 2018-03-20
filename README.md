@@ -89,42 +89,14 @@ ClearWave model based on simple DNN in keras:
 ------------------
 
 ## Run on THCH and 5 noises
-You may replace the mini data with your own data. We listed the data need to be prepared in meta_data/ to re-run the experiments in [1]. The data contains:
 
 Training:
-Speech: TIMIT 4620 training sentences. (selected 20% from 1680 testing sentences)
+Speech: THCHS30 2178 training sentences. (selected 20% from 10893 testing sentences)
 Noise: 5 kinds of noises
 
 Testing:
-Speech: TIMIT 168 testing sentences (selected 20% from 1680 testing sentences)
+Speech: THCHS30 499 testing sentences (selected 20% from 2495 testing sentences)
 Noise: same to training
-
-Some of the dataset are not published. Instead, you could collect your own data. 
-
-1. Download and prepare data. 
-
-2. Set MINIDATA=0 in runme.sh. Modify WORKSPACE, TR_SPEECH_DIR, TR_NOISE_DIR, TE_SPEECH_DIR, TE_NOISE_DIR in runme.sh file. 
-
-3. Run ./runme.sh
-
-If all the steps are successful, you may get results printed on the screen. The training takes a few miniutes to train 10,000 iterations on a TitanX GPU. The training and testing loss looks like:
-
-<pre>
-Iteration: 0, tr_loss: 1.228049, te_loss: 1.252313
-Iteration: 1000, tr_loss: 0.533825, te_loss: 0.677872
-Iteration: 2000, tr_loss: 0.505751, te_loss: 0.678816
-Iteration: 3000, tr_loss: 0.483631, te_loss: 0.666576
-Iteration: 4000, tr_loss: 0.480287, te_loss: 0.675403
-Iteration: 5000, tr_loss: 0.457020, te_loss: 0.676319
-Saved model to /vol/vssp/msos/qk/workspaces/speech_enhancement/models/0db/md_5000iters.h5
-Iteration: 6000, tr_loss: 0.461330, te_loss: 0.673847
-Iteration: 7000, tr_loss: 0.445159, te_loss: 0.668545
-Iteration: 8000, tr_loss: 0.447244, te_loss: 0.680740
-Iteration: 9000, tr_loss: 0.427652, te_loss: 0.678236
-Iteration: 10000, tr_loss: 0.421219, te_loss: 0.663294
-Saved model to /vol/vssp/msos/qk/workspaces/speech_enhancement/models/0db/md_10000iters.h5
-Training time: 202.551192045 s
-</pre>
 
 The final PESQ looks like:
 
@@ -150,8 +122,9 @@ machinegun       2.55 +- 0.27
 Avg.             2.08 +- 0.24
 </pre>
 
+------------------
 
-## Visualization
+## Samples:
 In the inference step, you may add --visualize to the arguments to plot the mixture, clean and enhanced speech log magnitude spectrogram. 
 
 ![alt text](https://github.com/yongxuUSTC/deep_learning_based_speech_enhancement_keras_python/blob/master/mixture2clean_dnn/appendix/enhanced_log_sp.png)
