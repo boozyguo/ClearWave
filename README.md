@@ -3,13 +3,12 @@ Denoise Speech by Deep Learning (Using Keras and Tensorflow)
 
 ------------------
 
-This project is modified from deep neural network (DNN) to do speech enhancement by yongxuUSTC(https://github.com/yongxuUSTC/sednn). 
+This project is modified from deep neural network (DNN) by yongxuUSTC(https://github.com/yongxuUSTC/sednn). 
 
 Also, the project uses ffmpeg, webrtc and pesq to deal with speech data.
 
-Before try the project, you should download the base dnn model from https://pan.baidu.com/s/1eVnRkNb5xIn96aYOV8C-Gg
-
-Please copy the .h5 file to ./models/pretrained/base_dnn_model.h5.
+Before try the project, please download the base dnn model from https://pan.baidu.com/s/1eVnRkNb5xIn96aYOV8C-Gg
+ and copy the .h5 file to ./models/pretrained/base_dnn_model.h5.
 
 ------------------
 
