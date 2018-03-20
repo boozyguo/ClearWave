@@ -94,12 +94,17 @@ ClearWave model based on simple DNN in keras:
 ## Run on THCH and 5 noises
 
 Training:
+
 Speech: THCHS30 2178 training sentences. (selected 20% from 10893 testing sentences)
+
 Noise: 5 kinds of noises
 
 Testing:
+
 Speech: THCHS30 499 testing sentences (selected 20% from 2495 testing sentences)
+
 Noise: same to training
+
 
 The final PESQ looks like:
 
