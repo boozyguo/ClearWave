@@ -176,6 +176,7 @@ WeChat Payment
 
 
 [Paypal Payment](http://paypal.me/githubClearWave)
+![Paypal Payment](https://github.com/boozyguo/ClearWave/blob/master/notes/paypal.jpg)
 
 
 
